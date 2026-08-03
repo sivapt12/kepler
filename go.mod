@@ -7,6 +7,7 @@ toolchain go1.24.9
 require (
 	dario.cat/mergo v1.0.2
 	github.com/NVIDIA/go-nvml v0.13.0-1
+	github.com/ROCm/amdsmi v0.0.0-20260318012731-1e91f3c15276
 	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/go-logr/logr v1.4.2
 	github.com/oklog/run v1.1.0
