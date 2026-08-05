@@ -87,7 +87,7 @@ type GoamdsmiPackageZone struct {
 	socketIdx int
 }
 
-func (z *GoamdsmiPackageZone) Name() string { return "socket" }
+func (z *GoamdsmiPackageZone) Name() string { return "package" }
 func (z *GoamdsmiPackageZone) Index() int   { return z.socketIdx }
 func (z *GoamdsmiPackageZone) Path() string {
 	return fmt.Sprintf("goamdsmi://cpu/socket/%d", z.socketIdx)
